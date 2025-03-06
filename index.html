@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="left-section">
+            <h1>Buy Me! Shopping Cart</h1>
+            <h3>Please scan items to checkout</h3>
+            <br>
+            <hr>
+            <div id="product-list"></div>
+            <button type="submit" onClick="checkout()">Check Out?</button>
+        </div>
+
+        <div class="right-section">
+            <p class="price">Total: $<span id="cart-total">0.00</span></p>
+            <div id="cart-items-container">
+                <ul id="cart-items"></ul>
+            </div>
+        </div>
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>
