@@ -1,0 +1,60 @@
+body {
+    display: grid;
+    max-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section, .right-section {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  #product-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #product-list div {
+    border: 1px solid #bcba;
+    border-radius: 2rem;
+    margin:2%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-button, .trash {
+    font-size: 2.5rem;
+  }
+  
+  .product-name h3{
+    font-size: 2.5rem;
+  }
+  
+  .right-section {
+    border: 2px solid grey;
+    border-radius: 10rem;
+  }
+  .price {
+    position: relative;
+    margin-top: 40rem;
+    text-align: right;
+    width: 28rem;
+    height: 15rem;
+    justify-content: flex-end;
+    justify-items: center;
+    padding: 2.3rem;
+    font-size: 2.5rem;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5.2rem;
+  }
